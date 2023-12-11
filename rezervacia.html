@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="TEST.css" />
+</head>
+
+<body>
+  <form method="post">Meno: <input type="text" name="retazec" /></form>
+  <form method="post">Priezvisko: <input type="text" name="retazec" /></form>
+  <form method="post">
+    Tel: <input type="text" name="retazec" value="+421" /> <br /><input type="submit" value="Odosli"
+      name="odosli" /><br />
+    Prevádzka: <input type="radio" name="mesto" id="BA" /> Bratislava
+    <input type="radio" name="mesto" id="TN" /> Trenčin
+    <input type="radio" name="mesto" id="Dca" /> Dubnica nad Váhom Pozícia
+  </form>
+  <form action="post">
+    <select name="pozicia">
+      <option value="kuchár">kuchár</option>
+      <option value="čašník" selected>čašník</option>
+      <option value="vodič">vodič</option>
+      <option value="pomocná sila">pomocná sila</option>
+    </select>
+    <form action="post">Jazyky: <input type="radio" name="Jazyk" id="ANJ" /> Angličtina
+      <input type="radio" name="Jazyk" id="GE" /> Nemčina
+      <input type="radio" name="Jazyk" id="TL" /> Taliančina
+      <input type="radio" name="Jazyk" id="PO" /> Polština
+    </form>
+    <button type="submit" value="odosli" name="odosli">Odošli
+    </button>
+    <button type="reset" value="reset" name="reset">Zmaž</button>
+</body>
+
+</html>
